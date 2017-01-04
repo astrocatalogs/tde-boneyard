@@ -122,7 +122,7 @@
 					"2.0"
 				],
 				"flux":"5.06E-14",
-				"luminosity":"5.24E+42",
+				"luminosity":"5.26E+42",
 				"nhmw":"0.0124",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -139,7 +139,7 @@
 				"counts":"0.373984",
 				"e_counts":"0.0100302",
 				"e_lower_flux":"8.86E-13",
-				"e_lower_luminosity":"9.18E+43",
+				"e_lower_luminosity":"9.21E+43",
 				"e_upper_flux":"9.74E-13",
 				"e_upper_luminosity":"1.01E+44",
 				"energy":[
@@ -147,7 +147,7 @@
 					"2.0"
 				],
 				"flux":"9.35E-13",
-				"luminosity":"9.69E+43",
+				"luminosity":"9.72E+43",
 				"nhmw":"0.0124",
 				"photonindex":"3.03",
 				"u_energy":"keV",
@@ -163,15 +163,15 @@
 				"counts":"0.0207778",
 				"e_counts":"0.00193902",
 				"e_lower_flux":"3.61E-13",
-				"e_lower_luminosity":"3.74E+43",
+				"e_lower_luminosity":"3.75E+43",
 				"e_upper_flux":"4.67E-13",
-				"e_upper_luminosity":"4.84E+43",
+				"e_upper_luminosity":"4.86E+43",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
 				"flux":"4.17E-13",
-				"luminosity":"4.32E+43",
+				"luminosity":"4.34E+43",
 				"photonindex":"3.19",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
@@ -186,15 +186,16 @@
 				"counts":"0.0444714",
 				"e_counts":"0.00527582",
 				"e_lower_flux":"8.87E-13",
-				"e_lower_luminosity":"9.19E+43",
+				"e_lower_luminosity":"9.22E+43",
 				"e_upper_flux":"1.13E-12",
-				"e_upper_luminosity":"1.17E+44",
+				"e_upper_luminosity":"1.18E+44",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
 				"flux":"1.01E-12",
-				"luminosity":"1.04E+44",
+				"luminosity":"1.05E+44",
+				"nhmw":"0.12",
 				"photonindex":"3.19",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",
@@ -204,15 +205,16 @@
 			{
 				"time":[
 					"57139.9",
-					"57139.966"
+					"57139.900"
 				],
-				"counts":"0.00129443",
+				"counts":"1.49",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"9.89E-16",
-				"luminosity":"1.02E+41",
+				"flux":"6.71E-12",
+				"luminosity":"6.98E+44",
+				"nhmw":"0.0124",
 				"photonindex":"3.03",
 				"u_energy":"keV",
 				"u_flux":"ergs/cm^2/s",

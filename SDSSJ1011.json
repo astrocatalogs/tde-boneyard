@@ -119,7 +119,7 @@
 					"2.0"
 				],
 				"flux":"1.94E-14",
-				"luminosity":"3.89E+42",
+				"luminosity":"3.88E+42",
 				"nhmw":"0.00803",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -139,7 +139,7 @@
 					"2.0"
 				],
 				"flux":"2.07E-14",
-				"luminosity":"4.15E+42",
+				"luminosity":"4.14E+42",
 				"nhmw":"0.00803",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -151,15 +151,15 @@
 			{
 				"time":[
 					"56769.5",
-					"56769.577"
+					"56769.500"
 				],
-				"counts":"0.00166",
+				"counts":"1.89",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"5.74E-16",
-				"luminosity":"1.15E+41",
+				"flux":"5.84E-12",
+				"luminosity":"1.17E+45",
 				"nhmw":"0.00803",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -171,15 +171,15 @@
 			{
 				"time":[
 					"57143.6",
-					"57143.677"
+					"57143.600"
 				],
-				"counts":"0.000604",
+				"counts":"0.667",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"2.09E-16",
-				"luminosity":"4.19E+40",
+				"flux":"2.06E-12",
+				"luminosity":"4.12E+44",
 				"nhmw":"0.00803",
 				"photonindex":"4.5",
 				"u_energy":"keV",
@@ -191,15 +191,15 @@
 			{
 				"time":[
 					"57313.3",
-					"57313.348"
+					"57313.300"
 				],
-				"counts":"0.00132",
+				"counts":"0.917",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"4.56E-16",
-				"luminosity":"9.14E+40",
+				"flux":"2.84E-12",
+				"luminosity":"5.68E+44",
 				"nhmw":"0.00803",
 				"photonindex":"4.5",
 				"u_energy":"keV",

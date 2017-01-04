@@ -155,7 +155,7 @@
 					"55022.210"
 				],
 				"counts":"0.0127224",
-				"e_counts":"0.00123489",
+				"e_counts":"1.23E-03",
 				"e_lower_flux":"3.05E-14",
 				"e_lower_luminosity":"1.24E+41",
 				"e_upper_flux":"5.28E-14",
@@ -175,15 +175,15 @@
 			{
 				"time":[
 					"55526.2",
-					"55526.254"
+					"55526.200"
 				],
-				"counts":"0.000859306",
+				"counts":"2.6",
 				"energy":[
 					"0.3",
 					"2.0"
 				],
-				"flux":"4.20E-16",
-				"luminosity":"1.71E+39",
+				"flux":"9.86E-12",
+				"luminosity":"4.01E+43",
 				"nhmw":"0.016",
 				"photonindex":"4.5",
 				"u_energy":"keV",
