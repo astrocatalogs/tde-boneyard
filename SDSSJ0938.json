@@ -96,68 +96,6 @@
 				"u_value":"km/s",
 				"source":"4"
 			}
-		],
-		"photometry":[
-			{
-				"time":[
-					"48200",
-					"48200.010"
-				],
-				"counts":"0.0207",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"6.65E-14",
-				"luminosity":"1.74E+42",
-				"nhmw":"0.0335",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"52398.6",
-					"52398.600"
-				],
-				"counts":"0.736",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"3.48E-12",
-				"luminosity":"9.08E+43",
-				"nhmw":"0.0335",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			},
-			{
-				"time":[
-					"55697.6",
-					"55697.600"
-				],
-				"counts":"0.444",
-				"energy":[
-					"0.3",
-					"2.0"
-				],
-				"flux":"2.10E-12",
-				"luminosity":"5.48E+43",
-				"nhmw":"0.0335",
-				"photonindex":"4.5",
-				"u_energy":"keV",
-				"u_flux":"ergs/cm^2/s",
-				"u_time":"MJD",
-				"upperlimit":true,
-				"source":"1"
-			}
 		]
 	}
 }
