@@ -25,12 +25,23 @@
 				"alias":"4"
 			},
 			{
-				"name":"The Open Supernova Catalog",
+				"name":"CPCS Alert 26490",
+				"url":"http://gsaweb.ast.cam.ac.uk/followup/get_alert_lc_data?alert_id=26490",
+				"alias":"5"
+			},
+			{
+				"name":"Cambridge Photometric Calibration Server",
+				"secondary":true,
+				"url":"http://gsaweb.ast.cam.ac.uk/followup/",
+				"alias":"6"
+			},
+			{
+				"name":"The Open TDE Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
-				"url":"https://sne.space",
-				"alias":"5"
+				"url":"https://tde.space",
+				"alias":"7"
 			}
 		],
 		"alias":[
@@ -40,7 +51,7 @@
 			},
 			{
 				"value":"PS17bgn",
-				"source":"3,4"
+				"source":"3,4,6"
 			},
 			{
 				"value":"AT2017bcc",
@@ -58,7 +69,7 @@
 				"value":"632",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,5"
+				"source":"1,3,7"
 			}
 		],
 		"dec":[
@@ -66,6 +77,11 @@
 				"value":"+29:59:45.13",
 				"u_value":"degrees",
 				"source":"3"
+			},
+			{
+				"value":"+29:59:45.24",
+				"u_value":"degrees",
+				"source":"6"
 			}
 		],
 		"discoverdate":[
@@ -85,7 +101,7 @@
 				"value":"0.0196",
 				"derived":true,
 				"e_value":"0.0001",
-				"source":"2,5"
+				"source":"2,7"
 			}
 		],
 		"host":[
@@ -106,13 +122,13 @@
 				"value":"0.446",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"3,4,5"
+				"source":"3,4,7"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"1.19",
-				"source":"1,3,4,5"
+				"source":"1,3,4,7"
 			}
 		],
 		"hostra":[
@@ -128,56 +144,56 @@
 				"derived":true,
 				"kind":"spectroscopic",
 				"u_value":"Mpc",
-				"source":"1,3,5"
+				"source":"1,3,7"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-21.14",
+				"value":"-21.59",
 				"derived":true,
-				"source":"1,3,5"
+				"source":"1,3,7"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"18.01",
+				"value":"17.56",
 				"derived":true,
-				"source":"4,5"
+				"source":"5,6,7"
 			}
 		],
 		"maxband":[
 			{
-				"value":"V",
+				"value":"i",
 				"derived":true,
-				"source":"4,5"
+				"source":"5,6,7"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2017/03/10",
+				"value":"2017/02/25",
 				"derived":true,
-				"source":"4,5"
+				"source":"5,6,7"
 			}
 		],
 		"maxvisualappmag":[
 			{
-				"value":"18.9",
+				"value":"18.78",
 				"derived":true,
-				"source":"4,5"
+				"source":"5,6,7"
 			}
 		],
 		"maxvisualband":[
 			{
-				"value":"B",
+				"value":"g",
 				"derived":true,
-				"source":"4,5"
+				"source":"5,6,7"
 			}
 		],
 		"maxvisualdate":[
 			{
-				"value":"2017/03/10",
+				"value":"2017/03/03",
 				"derived":true,
-				"source":"4,5"
+				"source":"5,6,7"
 			}
 		],
 		"ra":[
@@ -185,6 +201,11 @@
 				"value":"11:31:52.99",
 				"u_value":"hours",
 				"source":"3"
+			},
+			{
+				"value":"11:31:53.04",
+				"u_value":"hours",
+				"source":"6"
 			}
 		],
 		"redshift":[
@@ -203,7 +224,7 @@
 				"value":"41100",
 				"kind":"spectroscopic",
 				"u_value":"km/s",
-				"source":"5"
+				"source":"7"
 			}
 		],
 		"photometry":[
@@ -217,6 +238,60 @@
 				"telescope":"PS1",
 				"u_time":"MJD",
 				"source":"3"
+			},
+			{
+				"time":"57809.9634",
+				"band":"g",
+				"e_magnitude":"0.0223",
+				"magnitude":"18.8471",
+				"observatory":"T100,Hasan Esenoglu",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57809.9679",
+				"band":"r",
+				"e_magnitude":"0.0171",
+				"magnitude":"18.2935",
+				"observatory":"T100,Hasan Esenoglu",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57809.9724",
+				"band":"i",
+				"e_magnitude":"0.0147",
+				"magnitude":"17.5609",
+				"observatory":"T100,Hasan Esenoglu",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57815.8233",
+				"band":"g",
+				"e_magnitude":"0.0437",
+				"magnitude":"18.7844",
+				"observatory":"T100,Hasan Esenoglu",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57815.8281",
+				"band":"r",
+				"e_magnitude":"0.0295",
+				"magnitude":"18.3441",
+				"observatory":"T100,Hasan Esenoglu",
+				"u_time":"MJD",
+				"source":"5,6"
+			},
+			{
+				"time":"57815.8359",
+				"band":"i",
+				"e_magnitude":"0.0184",
+				"magnitude":"17.6085",
+				"observatory":"T100,Hasan Esenoglu",
+				"u_time":"MJD",
+				"source":"5,6"
 			},
 			{
 				"time":"57822.0",
