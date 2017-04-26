@@ -10,33 +10,27 @@
 				"alias":"1"
 			},
 			{
-				"name":"2016arXiv161102291A",
-				"bibcode":"2016arXiv161102291A",
-				"reference":"Auchettl, Guillochon, & Ramirez-Ruiz (2016)",
-				"alias":"2"
-			},
-			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
 				"reference":"Schlafly & Finkbeiner (2011)",
-				"alias":"4"
+				"alias":"3"
 			},
 			{
 				"name":"1995MNRAS.273L..47B",
 				"bibcode":"1995MNRAS.273L..47B",
 				"reference":"Brandt, Pounds, & Fink (1995)",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"name":"Swift TOOs",
 				"url":"https://www.swift.psu.edu/secure/toop/summary.php",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"The Open TDE Catalog",
@@ -44,25 +38,25 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://tde.space",
-				"alias":"7"
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"IC 3599",
-				"source":"1,2"
+				"source":"1"
 			}
 		],
 		"citations":[
 			{
 				"value":"<a href='http://adsabs.harvard.edu/abs/1995MNRAS.273L..47B'>Brandt et al. 1995</a>*&Dagger;",
-				"source":"5"
+				"source":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"AGN",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"comovingdist":[
@@ -70,21 +64,21 @@
 				"value":"93.558",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,5,7"
+				"source":"1,2,4,6"
 			}
 		],
 		"dec":[
 			{
 				"value":"+26:42:25.2",
 				"u_value":"degrees",
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"1990/11/26",
 				"derived":true,
-				"source":"1,7"
+				"source":"1,6"
 			}
 		],
 		"ebv":[
@@ -92,13 +86,13 @@
 				"value":"0.0155",
 				"derived":true,
 				"e_value":"0.0005",
-				"source":"4,7"
+				"source":"3,6"
 			}
 		],
 		"host":[
 			{
 				"value":"IC 3599",
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"hostdec":[
@@ -113,13 +107,13 @@
 				"value":"2.532",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"1,6,7"
+				"source":"1,5,6"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"1.125",
-				"source":"1,3,5,6,7"
+				"source":"1,2,4,5,6"
 			}
 		],
 		"hostra":[
@@ -134,26 +128,26 @@
 				"value":"95.545",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,5,7"
+				"source":"1,2,4,6"
 			}
 		],
 		"notes":[
 			{
 				"value":"Seyfert 1 features in spectrum",
-				"source":"5"
+				"source":"4"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:37:41.28",
 				"u_value":"hours",
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.021245",
-				"source":"1,5"
+				"source":"1,4"
 			}
 		],
 		"velocity":[
@@ -161,7 +155,7 @@
 				"value":"6301.5",
 				"derived":true,
 				"u_value":"km/s",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"photometry":[
